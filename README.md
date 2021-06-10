@@ -58,6 +58,7 @@ something
 |Transformer|177|200|300|
 
 #### EPOCHS
+Transformer
 |EPOCHS|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
 |------|---|---|---|
 |16|177|200|300|
@@ -65,9 +66,11 @@ something
 |64|177|200|300|
 |100|177|200|300|
 
-#### Loss Function
-
-#### Optimizer / Learning Rate
+#### Optimizer 
+GRU
+|Optimizer|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
+|SGD|0|0|0|
+|Adam|0|0|0|
 
 ## reference
 https://pytorch.org/tutorials/beginner/translation_transformer.html

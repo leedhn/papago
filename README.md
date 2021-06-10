@@ -57,6 +57,11 @@ txt 형태의 데이터를 torch.Tensor형태로 변환합니다.
 ![Transformer_100](https://user-images.githubusercontent.com/69630288/121541176-05ddb400-ca42-11eb-94e7-8a6fae2e5321.png)
 
 ### evaluation
+'>' : source
+'=' : target
+'<' : prediction
+
+Transformer _ epoch 100
 <img width="975" alt="스크린샷 2021-06-10 오후 11 32 49" src="https://user-images.githubusercontent.com/69630288/121543856-37577f00-ca44-11eb-8361-3399a9fdeb18.png">
 
 

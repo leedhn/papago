@@ -1,5 +1,6 @@
 # papago
-
+data 폴더에 `train_source.txt`, `train_target.txt`,`test_source.txt`, `test_target.txt` 파일을 업로드 해주세요.
+colab pro 기반으로 작성되었으며, pytorch.org/tutorial code를 참고하였습니다. 
 
 ## task discription
 

@@ -61,10 +61,10 @@ something
 ##### Transformer
 |EPOCHS|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
 |------|---|---|---|
-|16|177|200|300|
-|40|177|200|300|
-|64|177|200|300|
-|100|177|200|300|
+|16|0.0|0.0|0.0|
+|40|0.0|0.0|0.496|
+|64|0.0|0.0|0.0|
+|100|0.0|0.0|0.0|
 
 #### Optimizer 
 ##### GRU

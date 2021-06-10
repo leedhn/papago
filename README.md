@@ -69,6 +69,7 @@ Transformer
 #### Optimizer 
 GRU
 |Optimizer|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
+|------|---|---|---|
 |SGD|0|0|0|
 |Adam|0|0|0|
 

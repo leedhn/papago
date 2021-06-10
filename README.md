@@ -58,7 +58,7 @@ something
 |Transformer|177|200|300|
 
 #### EPOCHS
-Transformer
+##### Transformer
 |EPOCHS|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
 |------|---|---|---|
 |16|177|200|300|
@@ -67,7 +67,7 @@ Transformer
 |100|177|200|300|
 
 #### Optimizer 
-GRU
+##### GRU
 |Optimizer|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
 |------|---|---|---|
 |SGD|0|0|0|

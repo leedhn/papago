@@ -4,7 +4,7 @@ colab pro 기반으로 작성되었으며, pytorch.org/tutorial code를 참고�
 
 ## ipynb file discription
 + GRU.ipynb : GRU model code for predicting target vector. Model includes one encoderRNN and one AttentionDecoderRNN.
-    This code saves model in directory model/ with epoch number information. `encoder_{EPOCH}.pth``decoder_{EPOCH}.pth`
+    This code saves model in directory model/ with epoch number information. `encoder_{EPOCH}.pth`,`decoder_{EPOCH}.pth`
     This code saves logfile for recording train loss
 
 + transformer.ipynb : Transformer model code for predicting target vector. Model includes one transformer.
@@ -38,15 +38,29 @@ GRU, Transformer
 
 ### Data Processing
 
+txt 형태의 데이터를 torch.Tensor형태로 변환합니다. 
+
 ### Data Loader 
+
+각 모델에 맞게 DataLoader로 배치를 만듭니다. 
 
 ### evaluation
 
 ### experiment
 
 #### GRU vs Transformer
+|model|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
+|------|---|---|---|
+|GRU|177|200|300|
+|Transformer|177|200|300|
 
 #### EPOCHS
+|EPOCHS|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
+|------|---|---|---|
+|16|177|200|300|
+|40|177|200|300|
+|64|177|200|300|
+|100|177|200|300|
 
 #### Loss Function
 

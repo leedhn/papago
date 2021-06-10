@@ -45,6 +45,9 @@ txt 형태의 데이터를 torch.Tensor형태로 변환합니다.
 각 모델에 맞게 DataLoader로 배치를 만듭니다. 
 
 ### evaluation
+'''
+something
+'''
 
 ### experiment
 
@@ -66,4 +69,5 @@ txt 형태의 데이터를 torch.Tensor형태로 변환합니다.
 
 #### Optimizer / Learning Rate
 
-reference: pytorch.org/tutorial
+## reference
+https://pytorch.org/tutorials/beginner/translation_transformer.html

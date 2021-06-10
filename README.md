@@ -75,25 +75,25 @@ Transformer _ epoch 100
 #### GRU vs Transformer
 |model|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
 |------|---|---|---|
-|GRU|0.164|-|0.4425|
-|Transformer|0.246|0.644|0.5025|
+|GRU|0.164|-|0.443|
+|Transformer|0.246|0.644|0.503|
 
 #### EPOCHS
 ##### Transformer
 |EPOCHS|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
 |------|---|---|---|
 |16|0.0|0.0|0.0|
-|40|0.0|0.0|0.496|
-|64|0.0|0.0|0.511|
-|100|0.246|0.644|0.5025|
+|40|0.227|0.575|0.496|
+|64|0.269|0.626|0.511|
+|100|0.246|0.644|0.503|
 
 accuracy 추후 업데이트 예정.
 #### Optimizer 
 ##### GRU
 |Optimizer|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
 |------|---|---|---|
-|SGD|0.0505|-|0.3843|
-|Adam|0.164|-|0.4425|
+|SGD|0.0505|-|0.384|
+|Adam|0.164|-|0.443|
 
 
 Adam의 성능이 더 좋았습니다. Transformer의 경우 adam optimizer를 사용한다고 attention is all you need 논문에 소개되었기 때문에 다른 optimizer에 대해서 실험을 진행하지는 않았습니다. 

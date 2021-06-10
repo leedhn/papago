@@ -44,6 +44,12 @@ txt 형태의 데이터를 torch.Tensor형태로 변환합니다.
 
 각 모델에 맞게 DataLoader로 배치를 만듭니다. 
 
+
+
+#### GRU epoch train loss
+![GRU_loss](https://user-images.githubusercontent.com/69630288/121537166-a6ca7000-ca3e-11eb-943e-fb7b3646edd1.png)
+
+
 ### evaluation
 '''
 something

@@ -11,7 +11,7 @@ colab pro 기반으로 작성되었으며, pytorch.org/tutorial code를 참고�
     This code saves model in directory model/ with epoch number information. `transformer_{EPOCH}.pth`
     This code saves logfile for recording train loss
 
-+ compare.ipynb : comparing accuracy with trained models which saved at /trained_models/ dir. 
++ evaluate.ipynb : comparing accuracy with trained models which saved at /trained_models/ dir. 
   + target level accuracy
     + 'Truely corrected target sequence' score: which means model predicted exactly same as target.
     + 'Widely corrected target sequence' score: which means model predicted same as target for corresponding target length, and appended some more values after target length.

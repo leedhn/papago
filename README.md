@@ -55,6 +55,8 @@ txt 형태의 데이터를 torch.Tensor형태로 변환합니다.
 
 #### Transformer epoch train loss
 ![Transformer_100](https://user-images.githubusercontent.com/69630288/121541176-05ddb400-ca42-11eb-94e7-8a6fae2e5321.png)
+
+
 GRU또한 epoch가 커질수록 loss가 감소하는 경향을 보였습니다. 그러나 train loss가 1.3 이하로 떨어지지 않았습니다. 따라서 Epoch 실험은 Transformer로 진행하였습니다.
 ### evaluation
 '>' : source
@@ -92,6 +94,8 @@ Transformer _ epoch 100
 |------|---|---|---|
 |SGD|0.0505|-|0.3843|
 |Adam|0.164|-|0.4425|
+
+
 Adam의 성능이 더 좋았습니다. Transformer의 경우 adam optimizer를 사용한다고 attention is all you need 논문에 소개되었기 때문에 다른 optimizer에 대해서 실험을 진행하지는 않았습니다. 
 
 ## reference

@@ -1,6 +1,13 @@
 # papago
 data 폴더에 `train_source.txt`, `train_target.txt`,`test_source.txt`, `test_target.txt` 파일을 업로드 해주세요.
 colab pro 기반으로 작성되었으며, pytorch.org/tutorial code를 참고하였습니다. 
+```python
+from google.colab import drive #edit
+drive.mount('/content/drive')
+%cd /content/drive/MyDrive/NAVER 
+```
+의 %cd 부분을 git clone 경로로 바꾸어주세요.
+
 
 ## ipynb file discription
 + GRU.ipynb : GRU model code for predicting target vector. Model includes one encoderRNN and one AttentionDecoderRNN.
@@ -50,9 +57,8 @@ txt 형태의 데이터를 torch.Tensor형태로 변환합니다.
 ![Transformer_100](https://user-images.githubusercontent.com/69630288/121541176-05ddb400-ca42-11eb-94e7-8a6fae2e5321.png)
 
 ### evaluation
-'''
-something
-'''
+<img width="975" alt="스크린샷 2021-06-10 오후 11 32 49" src="https://user-images.githubusercontent.com/69630288/121543856-37577f00-ca44-11eb-8361-3399a9fdeb18.png">
+
 
 ### experiment
 
@@ -60,7 +66,7 @@ something
 |model|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
 |------|---|---|---|
 |GRU|177|200|300|
-|Transformer|177|200|300|
+|Transformer|0.246|0.644|0.5025|
 
 #### EPOCHS
 ##### Transformer

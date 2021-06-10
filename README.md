@@ -82,12 +82,13 @@ Transformer _ epoch 100
 ##### Transformer
 |EPOCHS|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
 |------|---|---|---|
-|16|0.0|0.0|0.0|
+|16|0.125|0.336|0.430|
 |40|0.227|0.575|0.496|
 |64|0.269|0.626|0.511|
 |100|0.246|0.644|0.503|
 
-accuracy 추후 업데이트 예정.
+epoch 수가 증가할수록 widely의 정확도가 높아지지만(predicted를 target 길이로 자른 후 비교), truely의 정확도(predicted와 target이 완벽하게 일치하는 경우만 correct로 인정)는 일정 epoch 이상으로 학습하면 성능이 다시 낮아지는 것을 확인하였습니다. 
+
 #### Optimizer 
 ##### GRU
 |Optimizer|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|

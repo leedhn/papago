@@ -4,7 +4,7 @@ colab pro 기반으로 작성되었으며, pytorch.org/tutorial code를 참고�
 
 ## ipynb file discription
 + GRU.ipynb : GRU model code for predicting target vector. Model includes one encoderRNN and one AttentionDecoderRNN.
-    This code saves model in directory model/ with epoch number information. `encoder_{EPOCH}.pth`,`decoder_{EPOCH}.pth`
+    This code saves model in directory model/ with epoch number information. `encoder_{OPTIM}.pth`,`decoder_{OPTIM}.pth`
     This code saves logfile for recording train loss
 
 + transformer.ipynb : Transformer model code for predicting target vector. Model includes one transformer.
@@ -46,9 +46,8 @@ txt 형태의 데이터를 torch.Tensor형태로 변환합니다.
 
 
 
-#### GRU epoch train loss
-![GRU_loss](https://user-images.githubusercontent.com/69630288/121537166-a6ca7000-ca3e-11eb-943e-fb7b3646edd1.png)
-
+#### Transformer epoch train loss
+![Transformer_100](https://user-images.githubusercontent.com/69630288/121541176-05ddb400-ca42-11eb-94e7-8a6fae2e5321.png)
 
 ### evaluation
 '''
@@ -70,7 +69,7 @@ something
 |16|0.0|0.0|0.0|
 |40|0.0|0.0|0.496|
 |64|0.0|0.0|0.511|
-|100|0.246|0.644|0.0|
+|100|0.246|0.644|0.5025|
 
 #### Optimizer 
 ##### GRU

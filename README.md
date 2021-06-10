@@ -87,7 +87,7 @@ Transformer _ epoch 100
 |64|0.0|0.0|0.511|
 |100|0.246|0.644|0.5025|
 
-
+accuracy 추후 업데이트 예정.
 #### Optimizer 
 ##### GRU
 |Optimizer|Truely corrected target sequence|Widely corrected target sequence|vector item level accuracy|
